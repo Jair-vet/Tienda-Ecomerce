@@ -152,6 +152,8 @@ img {
     grid-column-end: 7;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
 }
 .producto:nth-child(1) img {
     height: 45rem;
