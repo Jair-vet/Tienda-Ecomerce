@@ -43,6 +43,11 @@ img {
     display: block;
 }
 
+/* Utilidades */
+.text-center {
+    text-align: center;
+}
+
 
   /* Header y Navegación */
 .nombre-sitio{
@@ -77,10 +82,6 @@ img {
 .categorias {
     padding-top: 5rem;
 }
-.categorias h2 {
-    text-align: center;
-}
-
 .categoria a {
     text-align: center;
     display: block;
@@ -107,6 +108,7 @@ img {
          padding: 10rem 0;
          background-repeat: no-repeat;
          background-size: 100%, 120rem;
+         margin-top: 2rem;
 }
 
 .sobre-nosotros-grid {
@@ -117,4 +119,13 @@ img {
 
 .texto-nosotros {
     grid-column: 2 / 3;
+    color: white;
 }
+
+
+/* Listado de Productos */
+.contenido-principal {
+    padding-top: 5rem;
+
+}
+
