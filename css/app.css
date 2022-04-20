@@ -143,6 +143,8 @@ img {
 .listado-productos {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
 }
 .producto:nth-child(1) {
     grid-column-start: 1;
