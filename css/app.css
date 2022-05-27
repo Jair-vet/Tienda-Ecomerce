@@ -126,7 +126,12 @@ img {
 
 /* Categorias */
 .categorias {
-    padding-top: 5rem;
+    padding-top: 5rem 0;
+}
+@media (min-width: 768px) {  
+    .categorias{
+        
+    }
 }
 .categoria a {
     text-align: center;
