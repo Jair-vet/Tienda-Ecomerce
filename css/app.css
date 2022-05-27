@@ -20,7 +20,12 @@ h1, h2, h3 {
 }
 
 h1{
-    font-size: 5rem;
+    font-size: 4rem;
+}
+@media (min-width: 768px) {  
+    h1{
+        font-size: 5rem;
+    }
 }
 h2 {
     font-size: 4rem;
